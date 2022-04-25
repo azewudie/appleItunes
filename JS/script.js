@@ -1,3 +1,4 @@
+// <!-- Aaron Zewudie -->
 let button = document.getElementById("button");
 const getArtistName = (ARTIST_NAME) => {
   fetch(
@@ -14,8 +15,8 @@ const getArtistName = (ARTIST_NAME) => {
               <li class="collectionType">${temp.collectionType}</li>
               <li class="artistId">${temp.artistId}</li>
               <li class="collectionId">${temp.collectionId}</li>
-              <li class="collectionId">${temp.artistName}</li> 
-              <li class="collectionId">${temp.primaryGenreName}</li> 
+              <li class="collectionId">${temp.artistName}</li>
+              <li class="collectionId">${temp.primaryGenreName}</li>
               <li class="collectionId">${temp.country}</li> </ul>`;
         console.log(temp.country);
       });
