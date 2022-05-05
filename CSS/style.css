@@ -67,9 +67,9 @@ button {
   border-bottom: 2px solid black;
 }
 #list-wrapper {
-  width: 100%vm;
+  width: 100vm;
   block-size: fit-content;
-  height: 75%vm;
+  height: 75vm;
   border: 1px solid #c3c3c3;
 
   box-shadow: 10px 5px 5px black;
